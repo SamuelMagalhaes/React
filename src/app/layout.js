@@ -1,5 +1,6 @@
 import "./globals.css";
 import Topo from "@/components/Topo";
+import Link from "next/link";
 
 export const metadata = {
   title: "Create Next App",
@@ -9,8 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Topo />
-      <body>{children}</body>
+      <body>
+        <Topo />
+        {children}
+      </body>
     </html>
   );
 }

@@ -3,15 +3,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.card_container}>
-        <h1>Página Inicial</h1>
-        <p>Essa é a página principal da aplicação React.</p>
-        <p>
-          Essa página é gerada automaticamente durante a criação da aplicação.
-        </p>
-        <Link href="/novapagina">Link para a nova página</Link>
-      </div>
-    </main>
-  );
+   <main className={styles.main}>
+    <div>
+      <h1>Seja bem vindo ao exemplo de navegação react</h1>
+    </div>
+   </main>
+  )
 }
